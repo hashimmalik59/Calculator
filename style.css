@@ -9,11 +9,15 @@
     text-decoration: none;
     background-color: #000;
 }
-
-.container {
-    height: 80vh;
-    width: 25%;
+.container, input, button{
     border: 1px solid #fff;
+}
+input, button{
+    color: #fff;
+}
+.container {
+    height: 90vh;
+    width: 25%;
     border-radius: 5px;
     margin: auto;
     text-align: center;
@@ -24,34 +28,39 @@
 input{
     width: 82%;
     margin: 3% 0%;
-    border-color: #fff;
-    color: #fff;
     text-align: end;
     font-size: 2em;
     border-radius: 3px;
 }
 button {
-    color: #fff;
     border: none;
-    height: 15%;
+    height: 12.5%;
     width: 25%;
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 2px;
     margin: 1.25% 1%;
     font-size: 2em;
 }
 .number:hover{
-    background-color: rgba(128, 128, 128, 0.20);
+    background-color: rgba(128, 128, 128, 0.25);
 }
 .same{
-    background-color: red;
+    background-color: yellow;
+    color: black;
 }
 .same:hover{
-    background-color: rgba(255, 0, 0, 0.9);
+    background-color: rgba(255, 255, 0, 0.75);
 }
 #equal{
     background-color: green;
 }
 #equal:hover{
     background-color: rgba(0, 128, 0, 0.75);
+}
+.clear{
+    background-color: red;
+    width: 39%;
+}
+.clear:hover{
+    background-color: rgba(255, 0, 0, 0.75);
 }

@@ -3,28 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Website</title>
+    <title>Calculator</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="container">
-      <div class="input"><input type="number"></div>
-      <button class="button number" id="">1</button>
-      <button class="button number" id="">2</button>
-      <button class="button number" id="">3</button>
-      <button class="button number" id="">4</button>
-      <button class="button number" id="">5</button>
-      <button class="button number" id="">6</button>
-      <button class="button number" id="">7</button>
-      <button class="button number" id="">8</button>
-      <button class="button number" id="">9</button>
-      <button class="button same" id="add">+</button>
-      <button class="button number" id="">0</button>
-      <button class="button same" id="subtract">-</button>
-      <button class="button same" id="multiply">*</button>
-      <button class="button " id="equal">=</button>
-      <button class="button same" id="divide">/</button>
+      <input type="number" class="input">
+      <button class="button number" id="one"      onclick="one()">1</button>
+      <button class="button number" id="two"      onclick="two()">2</button>
+      <button class="button number" id="three"    onclick="three()">3</button>
+      <button class="button number" id="four"     onclick="four()">4</button>
+      <button class="button number" id="five"     onclick="five()">5</button>
+      <button class="button number" id="six"      onclick="six()">6</button>
+      <button class="button number" id="seven"    onclick="seven()">7</button>
+      <button class="button number" id="eight"    onclick="eight()">8</button>
+      <button class="button number" id="nine"     onclick="nine()">9</button>
+      <button class="button same"   id="add"      onclick="add()">+</button>
+      <button class="button number" id="zero"     onclick="zero()">0</button>
+      <button class="button same"   id="subtract" onclick="subtract()">-</button>
+      <button class="button same"   id="multiply" onclick="multiply()">*</button>
+      <button class="button"        id="equal"    onclick="equal()">=</button>
+      <button class="button same"   id="divide"   onclick="divide()">/</button>
+      <button class="button clear"   id="clear"   onclick="clear()">Del</button>
+      <button class="button clear"   id="clearAll"   onclick="clearAll()">C</button>
     </div>
-    <script src="scrpit.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
